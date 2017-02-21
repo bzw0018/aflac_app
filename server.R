@@ -1,4 +1,6 @@
 library(shiny)
+if (!require("shinydashboard")) install.packages("shinydashboard")
+if (!require("quantmod")) install.packages("quantmod")
 library(shinydashboard)
 library(quantmod)
 
